@@ -1,0 +1,17 @@
+{
+  "name": "next-preact-demo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next",
+    "prod": "next build && next start"
+  },
+  "dependencies": {
+    "next": "10.0.5",
+    "next-plugin-preact": "^3.0.3",
+    "preact": "^10.5.12",
+    "preact-render-to-string": "^5.1.12",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat"
+  }
+}
